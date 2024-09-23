@@ -1,0 +1,195 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: Inter;
+    background-color: rgb(255, 255, 255) !important;
+    color: white !important;
+}
+* {
+    font-size:large;
+    font-weight: 300;
+    border-radius: 0 !important;
+    opacity: 100% !important;
+}
+.header{
+    background-image: url(images/Rectangle1.jpg) ;
+}
+#b1 {
+    background-color: #0000;
+    border: none;
+    flex-basis: 30%;
+    text-align: end;
+}
+#b2 {
+    width: 20%;
+}
+#logo{
+    flex-basis: 30%;
+    text-align: end;
+    font-weight: 400;
+}
+h1.hero_title{
+    font-size: 5vw;
+    font-weight: 600;
+}
+.hero, .about, .portfolio, .position-relative, .quote, .services, footer > .row{    
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+footer .row{
+    margin-bottom: 0;
+    padding-top: 5%;
+}
+ul{
+    list-style: none;
+}
+.hero * {
+    margin-bottom: 4.5vw;
+}
+.position-relative{
+    margin-bottom: 10%;
+}
+.about h2, .completed_descr, .quote *{
+    margin-bottom: 3.5vw;
+}
+.navbar-nav {
+    --bs-navbar-color: rgba(255, 255, 255, 1);
+}
+nav.navbar{
+    padding-top: 3.5%;
+}
+p, button, .completed_descr, a, p.quote_title, cite.quote_author, cite.quote_author span{
+    font-size: 1.3vw !important;
+}
+.about h2, b, .portfolio-item_title{
+    font-size: 3.3vw !important;
+}
+#logo, .services h3, .footer_logo, .input.footer_input{
+    font-size: 2.5vw !important;
+}
+.quote_text, h2.footer_title{
+    font-size: 2.3vw !important;
+    font-weight: 500;
+}
+.about, .portfolio, .quote, .services {
+    color: black !important;
+}
+ul {
+    padding-left: 0% !important;
+}
+.navbar-toggler-icon {
+    width : 5vw !important; height: 5vw !important;
+}
+#img1, #img2, #portfolio-second{
+    margin-bottom: 0% !important;
+}
+.quote{
+    margin-top: 0% !important;
+}
+svg {
+    width : 2.5vw !important; height: 2.5vw !important;
+}
+.about_play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+.position-relative video {
+    height: 30vw;
+}
+#playButton svg{
+    width : 5vw !important; height: 5vw !important;
+}
+#b3 img{
+    width : 3vw !important; height: 3vw !important;
+}
+.portfolio_list *{
+    margin-bottom: 5%;
+}
+
+#i1, #i2{
+    margin-bottom: 0%;
+    height: 20vw;
+}
+
+li.services_list .row{
+    padding-top: 4% !important;
+    padding-bottom: 4% !important;
+    border-top: 0.5px gray solid;
+}
+.presentation img {
+    width: 100%;
+    height: auto;
+}
+
+ul.footer_social{
+    display: flex;
+    flex-direction: row;
+}
+li.social_item {
+    width: 35%;
+}
+footer img {
+    padding-top: 15%;
+    width : 7vw !important; height: 7vw !important;
+}
+input.footer_input{
+    background-color: rgb(33, 37, 41) !important; width: 100%;
+    font-size: 2.5vw;
+}
+.footer_form{
+    border-bottom: 0.5px gray solid;
+    position: relative !important;
+}
+#b3{
+    background-color: #0000; border: none;
+    position: absolute;
+    padding: 0;
+    right: 10%; top: 5%;
+}
+
+@media (max-width: 576px) {
+    li.about_item {  
+        text-align: center !important;
+    }
+    #logo{
+        font-size: 33.5vw;
+        flex-basis: 10%;
+    }
+    #i2{
+        margin-right:0%;
+    }
+    li.social_item {
+        width: 15%;
+    }
+    h1.hero_title{
+        font-size: 5vw;
+    }
+    p, button, .completed_descr, a, p.quote_title, cite.quote_author, cite.quote_author span{
+        font-size: 2.3vw !important;
+    }
+    .about h2, b, .portfolio-item_title{
+        font-size: 4.3vw !important;
+    }
+    #logo, .services h3, .footer_logo, .input.footer_input{
+        font-size: 3.5vw !important;
+    }
+    .quote_text, h2.footer_title{
+        font-size: 3.3vw !important;
+    }
+    form.footer_form{
+        margin-bottom: 10%;
+    }
+    svg {
+        width : 3vw !important; height: 3vw !important;
+    }
+    
+}
+
